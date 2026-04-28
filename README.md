@@ -1,0 +1,5 @@
+This project focuses on applying different supervised learning algorithms to the breast cancer dataset from the sklearn library in order to compare their performance. The dataset is a binary classification problem with malignant and benign classes. During preprocessing, the data was checked for missing values (none were found) and feature scaling was applied using StandardScaler to ensure better performance, especially for distance-based algorithms.
+
+Five models were implemented: Logistic Regression, Decision Tree, Random Forest, SVM, and k-NN. The dataset was split into training and testing sets, and model performance was evaluated using accuracy. Among the models, Random Forest and SVM performed the best, while Decision Tree and k-NN showed comparatively lower performance due to overfitting and sensitivity to parameter choices.
+
+Overall, the project highlights the importance of preprocessing and selecting appropriate models, with SVM providing the most reliable results for this dataset.
